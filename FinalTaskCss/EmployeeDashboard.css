@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+.Container {
+    display: flex;
+    width: 100%;
+}
+
+.Left {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    color: #fff;
+    width: 23%;
+    margin-top: 94px;
+    height: 670px;
+    position: fixed;
+}
+
+.users img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.info {
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+    margin-left: 5px;
+
+}
+
+.Right {
+    width: 81%;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.user-dashboard {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    color: #fff;
+    text-align: center;
+    padding: 13px;
+    width: 100%;
+    font-size: 1.4rem;
+    position: fixed;
+
+}
+
+.working {
+    height: 255px;
+    width: 340px;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    margin: 50px;
+    border-radius: 13px;
+}
+
+.Features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.Features h2 {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.noOfLeaves {
+    width: 75%;
+    display: inline-flex;
+    list-style: none;
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    outline: none;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 13px;
+    visibility: hidden;
+   
+}
+
+.noOfLeaves span {
+    background-color: #F44336;
+    padding: 12px;
+    margin-left: 20px;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 1.3em;
+    /* position: fixed; */
+}
+
+.noOfLeaves li {
+    padding: 11px;
+    font-size: 1.4em;
+    margin-left: 5px;
+    
+}
+
+.noOfLeaves li:hover {
+    border-bottom: 1px solid red;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.apply-leaves {
+    height: 255px;
+    width: 340px;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    border-radius: 13px;
+    margin: 50px;
+}
+
+.btn {
+    padding: 6px;
+    font-size: 1rem;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    color: #fff;
+    background-color: #33886f;
+
+}
+
+.apl {
+    font-size: 1rem;
+    width: 180px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    color: #fff;
+    background-color: #33886f;
+    margin-top: 10px;
+    padding: 6px;
+}
+
+.users {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.users button {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: #33886f;
+}
+
+.payslip {
+    height: 255px;
+    width: 366px;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    margin: 50px;
+    border-radius: 13px;
+    /* color: #fff; */
+}
+
+.leavesbalance {
+    height: 255px;
+    width: 340px;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    margin: 50px;
+    border-radius: 13px;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 2.3rem;
+    padding-top: 17px;
+}

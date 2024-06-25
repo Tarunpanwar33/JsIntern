@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #25323d;
+
+}
+
+.Main-Heading {
+    padding: 8px;
+    font-size: 1.4em;
+    background-color: #2196F3;
+    position: fixed;
+    width: 100%;
+}
+
+.Main-Heading h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+}
+
+.form-section {
+    padding-top: 120px;
+}
+
+form {
+    margin: auto;
+    box-shadow: 0px 0px 3px gray;
+    padding: 40px;
+    width: 40%;
+    background-color: transparent;
+    border-radius: 12px;
+}
+
+form label {
+    margin-left: 200px;
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 2.2em;
+}
+
+input {
+    font-size: 1.4em;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    outline: none;
+    text-align: center;
+}
+
+.Gender {
+    display: inline-flex;
+    justify-content: center;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 130px;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3em;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+form button {
+    font-size: 1.2em;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    outline: none;
+    margin-top: 35px;
+    text-align: center;
+    background-color: #41bd30;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+form button:hover {
+    transition: 0.2ms ease;
+    background-color: rgb(150, 60, 60);
+}

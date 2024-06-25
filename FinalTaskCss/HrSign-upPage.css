@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #282c40;
+
+}
+
+.Main-Heading {
+    padding: 10px;
+    background-color: #656d94;
+    width: 100%;
+    position: fixed;
+
+}
+
+.Main-Heading h1 {
+    text-align: center;
+    font-size: 2.7em;
+    color: #FFF;
+
+}
+
+.form-section {
+    width: 100%;
+    padding-top: 100px;
+}
+
+form {
+
+    box-shadow: 0px 0px 5px rgb(97, 97, 150);
+    padding: 35px;
+    width: 50%;
+    border-radius: 12px;
+    background-color: transparent;
+    margin-left: 350px;
+}
+
+form label {
+    font-size: 1.4em;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    margin-left: 270px;
+}
+
+input {
+    font-size: 1.35em;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+}
+
+.Gender {
+    display: inline-flex;
+    justify-content: center;
+    width: 34%;
+    margin-left: 200px;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3em;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+form button {
+    font-size: 1.5em;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    margin-top: 35px;
+    text-align: center;
+    background-color: orangered;
+    color: #fff;
+}

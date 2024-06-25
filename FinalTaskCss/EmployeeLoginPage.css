@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 230;
+    font-style: normal;
+}
+
+body {
+    background: #E8CBC0;
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);
+    background: linear-gradient(to right, #636FA4, #E8CBC0);
+}
+
+.Container {
+    height: 88vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.inner-con {
+    width: 80%;
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.left-section {
+    display: flex;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.heading h1 {
+    width: 80%;
+    margin-left: 150px;
+    text-align: center;
+    padding-bottom: 10px;
+    font: 900;
+    font-size: 2.3em;
+
+}
+
+.sub-head h2 {
+    font-size: 2.3rem;
+    font: bold;
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    width: 65%;
+    height: 400px;
+    box-shadow: 0px 0px 6px khaki;
+    margin-top: 20px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-top: 60px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.user-id {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.user-id input {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: transparent;
+    outline: none;
+}
+
+.password {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 15px;
+}
+
+.password input {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 10px;
+    border: transparent;
+    outline: none;
+}
+
+.login button {
+    width: 80%;
+    text-align: center;
+    font-size: 800;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 32px;
+    margin-top: 18px;
+    color: #fff;
+    background-color: #FF9800;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+
+.right-section {
+    margin-top: 50px;
+}
+
+.right-section img {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-left: 200px;
+
+}

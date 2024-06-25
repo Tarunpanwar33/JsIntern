@@ -1,0 +1,122 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+body {
+  width: 100%;
+  height: 100vh;background-color: #282c40;
+}
+
+.Dashboard {
+  display: flex;
+  width: 100%;
+
+}
+
+.Left {
+  width: 18%;
+  height: 100vh;
+  box-shadow: 0px 0px 2px;
+  position: fixed;
+
+}
+
+
+.left-Navbar {
+  height: 82px;
+  width: 100%;
+  background: #5764ac;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.left-Navbar h3 {
+  padding: 5px;
+}
+
+.icons{
+  color: #fff;
+  padding:10.66px;
+  cursor: pointer;
+  font-size: 1.22em;
+}
+.icons i {
+  background-color: rgb(58, 87, 173);
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  font: 700;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.Right {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.heading {
+  position: fixed;
+  width: 82%;
+  font-size: 1.7em;
+  text-align: center;
+  color: #fff;
+  margin-left: 277px;
+  background: #5764ac;
+
+}
+
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(2,500px);
+  gap: 50px;
+  margin: 100px 70px 0px 370px;
+}
+
+.card{
+  box-shadow: 0px 0px 3px;
+  height: 200px;
+  padding: 10px;
+  background-color: #558fac;
+  border-radius: 13px;
+}
+
+.details h3{
+  width: 280px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+.details span {
+  color: #fff;
+  font: 600;
+}
+
+.inner-box {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.img i {
+  height: 100px;
+  width: 100px;
+  font-size: 3em;
+  border-radius: 50%;
+  color: rgb(67, 67, 148);
+}
+.textMsg p {
+  padding: 12px;
+  color: #fff;
+  font-size: 1.1em;
+  font: 800;
+}
